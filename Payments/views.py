@@ -33,7 +33,7 @@ class InitializePaymentView(APIView):
         payload = {
             "email": email,
             "amount": kobo_amount,
-            "callback_url": "http://localhost:5173/verify", # Your React Verify Route
+            "callback_url": "https://exquisitevillainy.vercel.app/verify", # Your React Verify Route
         }
 
         try:
